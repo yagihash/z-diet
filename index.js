@@ -66,7 +66,7 @@ exports.main = (req, res) => {
     }
 
     let weight = req.query.w || null
-    if (weight) {
+    if (weight === null) {
         res.status(400).send('bad request')
     }
 
