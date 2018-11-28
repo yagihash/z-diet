@@ -8,7 +8,7 @@
     "functions:start": "functions start",
     "functions:stop": "functions stop",
     "functions:kill": "functions kill",
-    "functions:deploy": "functions deploy main --trigger-topic=topic",
+    "functions:deploy": "functions deploy main --trigger-http",
     "functions:delete": "functions delete main",
     "functions:logs": "functions logs read",
     "functions": "functions"
