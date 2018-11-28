@@ -6,7 +6,7 @@ const secret = process.env.secret
 
 const updateWeight = async (weight) => {
     const opt = {
-        headless: false,
+        headless: true,
         args: [
             "--disable-background-networking",
             "--disable-default-apps",
@@ -65,7 +65,7 @@ exports.main = (req, res) => {
         res.status(403).send('forbidden')
     }
 
-    let weight = req.query.w ? req.query.w : null
+    let weight = req.query.w || null
     if (weight) {
         res.status(400).send('bad request')
     }
