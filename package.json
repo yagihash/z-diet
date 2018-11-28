@@ -25,6 +25,6 @@
   "homepage": "https://github.com/yagihashoo/z-diet#readme",
   "dependencies": {
     "@google-cloud/functions-emulator": "1.0.0-beta.5",
-    "withings-oauth2": "0.0.9"
+    "puppeteer": "^1.10.0"
   }
 }
