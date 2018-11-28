@@ -70,9 +70,9 @@ exports.main = (req, res) => {
     }
 
     updateWeight(weight).then(() => {
-        res.status(200).send('ok');
+        res.status(200).send('ok')
     }).catch(() => {
-        res.status(500).send('internal server error');
+        res.status(500).send('internal server error')
     })
-};
+}
 
