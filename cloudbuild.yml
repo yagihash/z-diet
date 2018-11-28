@@ -5,4 +5,4 @@ steps:
     - functions
     - deploy
     - z-diet
-    - --stage-bucket=z-diet
+    - --stage-bucket=z-diet-src
